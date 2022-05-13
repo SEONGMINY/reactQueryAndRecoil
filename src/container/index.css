@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'GothicA1-Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+    font-style: normal;
+}
+
+/* Header */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: "GothicA1-Light";
+    color: #454B53;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.menu-item {
+    border-radius: 5px;
+    margin: 0px 17px 0px 0px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #E9EBEC;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    font-weight: bold;
+    color: #454B53;
+}
+
+.login {
+    margin: 12px;
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
